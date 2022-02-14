@@ -1,7 +1,7 @@
-@import "_reset.css";
-@import "_card.css";
-@import "_screen_mid.css";
-@import "_mobile_375.css";
+@import "reset.css";
+@import "card.css";
+@import "screen_mid.css";
+@import "mobile_375.css";
 
 /* ===== custom prop ===== */
 :root {
