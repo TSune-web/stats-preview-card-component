@@ -41,16 +41,18 @@ Users should be able to:
 ### What I learned
 
 ## CSS
-# 1.How to add color onto the jpg image
+### 1.How to add color onto the jpg image
 ```css
 img {
   mix-blend-mode: multiply;
 }
 ```
-# 2.how to divide code into files/modules
+### 2.how to divide code into files/modules
 ```css
 @import "style.css";
 ```
+### ! Note: CSS @import does not work when deploying the project into GitHub Pages. Apparently, GitHub Pages seem to ignore underscores. Sass import, on the other hand, will work because Sass files will be compiled into a CSS file.
+
 
 
 ### Continued development
