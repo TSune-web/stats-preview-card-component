@@ -52,7 +52,12 @@ img {
 @import "style.css";
 ```
 - Note: CSS @import does not work when deploying the project into GitHub Pages. Apparently, GitHub Pages seem to ignore underscores. Sass import, on the other hand, will work because Sass files will be compiled into a CSS file.
-
+### 3.Resize the image to fit to its container
+```css
+img {
+  object-fit: cover;
+}
+```
 
 
 ### Continued development

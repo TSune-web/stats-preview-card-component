@@ -122,6 +122,9 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.8;
+
+    /* Resize the image to fit its container */
+    object-fit: cover;
 }
 
 .mimg {
